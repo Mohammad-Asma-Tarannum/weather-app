@@ -19,8 +19,7 @@ interface CreateAlertModalProps {
   onSubmit: (e: React.FormEvent) => void;
 }
 
-
-const BASE_URL = 'http://localhost:6969';
+const BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const CreateAlertModal: React.FC<CreateAlertModalProps> = ({ open, form, formError, formLoading, onChange, onClose, onSubmit }) => {
   const [labels, setLabels] = React.useState<string[]>([]);

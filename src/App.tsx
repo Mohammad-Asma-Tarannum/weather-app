@@ -24,7 +24,7 @@ type AlertForm = {
 	[key: string]: string;
 };
 
-const BASE_URL = 'http://localhost:6969';
+const BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 function fetchAlerts(): Promise<Alert[]> {
 	return fetch(`${BASE_URL}/show-alerts`)

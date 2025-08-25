@@ -20,7 +20,7 @@ interface EditAlertModalProps {
   alertId: number | null;
 }
 
-const BASE_URL = 'http://localhost:6969';
+const BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const EditAlertModal: React.FC<EditAlertModalProps> = ({ open, form, formError, formLoading, onChange, onClose, onSubmit }) => {
   const [labels, setLabels] = React.useState<string[]>([]);
