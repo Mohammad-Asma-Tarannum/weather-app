@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "description": "Starter template for Vite with React (TypeScript). Supports Tailwind. Vitest and @react/testing-library configured and ready to go. Also ESLint, Prettier, Husky, Commit-lint and Atomic Design for components.",
-  "homepage": "https://github.com/Mohammad-Asma-Tarannum/weather-app",
+  "homepage": "https://Mohammad-Asma-Tarannum.github.io/weather-app",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jvidalv/vital.git"
@@ -39,6 +39,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "@heroicons/react": "2.1.5",
@@ -46,8 +47,8 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@eslint/js": "9.13.0",
     "@commitlint/cli": "19.5.0",
+    "@eslint/js": "9.13.0",
     "@tailwindcss/forms": "0.5.9",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
@@ -56,14 +57,14 @@
     "eslint": "9.13.0",
     "eslint-plugin-react-hooks": "5.0.0",
     "eslint-plugin-react-refresh": "0.4.14",
+    "gh-pages": "^6.3.0",
     "lint-staged": "15.2.10",
     "postcss": "8.4.47",
     "prettier": "3.3.3",
     "tailwindcss": "3.4.14",
     "typescript": "5.6.3",
     "typescript-eslint": "8.10.0",
-    "vite": "5.4.10",
-    "vite-preset-react": "2.3.0"
+    "vite": "5.4.10"
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
