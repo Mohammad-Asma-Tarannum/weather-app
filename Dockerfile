@@ -3,6 +3,7 @@ FROM node:22-alpine AS builder
 
 WORKDIR /app
 
+
 # Install ALL build dependencies for native modules (cached layer)
 RUN apk add --no-cache \
     make \
